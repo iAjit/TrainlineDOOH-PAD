@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJla6d50b9381de7fe6adadc1f112b5cd7a"/>
+<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl0c9ca1d13e5e57eb2cf820823de8cd19"/>
   <meta charset="utf-8">
   <meta name="generator" content="Google Web Designer 16.4.1.0219">
   <meta name="template" content="Banner 3.0.0">
@@ -524,6 +524,7 @@ m("gwd.textfitting.setMinFontSizePx",function(a){w.i=a});m("gwd.textfitting.setT
         }
 
         function generateCreativeMessage(category, stationName) {
+         // category="Medium";
           switch (category) {
             case "Cancelled":
               console.log("Cancelled");
@@ -536,7 +537,7 @@ m("gwd.textfitting.setMinFontSizePx",function(a){w.i=a});m("gwd.textfitting.setT
 
             case "Severe":
               console.log("Severe");
-              creativeLine = `Train from ${stationName} delayed?<span style="display:block; margin-top:20px;">>We'll help you get repaid.</span>`;
+              creativeLine = `Train from ${stationName} delayed?<span style="display:block; margin-top:20px;">We'll help you get repaid.</span>`;
               dynamicText.innerHTML = creativeLine;
               dynamicText.style.color = "#96FF90"; // Red
               repay30Video.play();
